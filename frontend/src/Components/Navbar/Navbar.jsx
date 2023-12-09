@@ -2,10 +2,9 @@ import React from 'react'
 import './Navbar.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faBell } from '@fortawesome/free-solid-svg-icons'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import logo from '../Assets/udemy-logo.png'
-import heart from '../Assets/heart.svg'
-import cart from '../Assets/cart.svg'
+import cart_icon from '../Assets/cart_icon.png'
 
 const Navbar = () => {
     return (
@@ -24,15 +23,10 @@ const Navbar = () => {
                 <li>Teach on Udemy</li>
                 <li>My learning process</li>
                 <div className='nav-icons'>
-                    <div className="nav-heart">
-                        <img src={heart} alt="" />
-                    </div>
-                    <div className="nav-cart">
-                        <img src={cart} alt="" />
-                    </div>
-                    <div className="nav-notice">
-                        {/* <FontAwesomeIcon icon={faBell} /> */}
-                    </div>
+                    <img src={cart_icon} alt=''/>
+                    <div className="nav-cart-count">0</div>
+                    <button className='login'>Log in</button>
+                    <button className='signup'>Sign up</button>
                 </div>
             </ul>
         </div>
