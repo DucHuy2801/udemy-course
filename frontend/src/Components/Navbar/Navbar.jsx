@@ -3,8 +3,8 @@ import './Navbar.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
-import logo from '../Assets/udemy-logo.png'
-import cart_icon from '../Assets/cart_icon.png'
+import logo from '../Assets/image/udemy-logo.png'
+import cart_icon from '../Assets/image/cart_icon.png'
 
 const Navbar = () => {
     return (
