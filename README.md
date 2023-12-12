@@ -6,3 +6,4 @@
 ## BACKEND
 - Framework: NestJS
 - Database: MySQL
+- Using swagger to call API
